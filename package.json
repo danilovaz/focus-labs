@@ -1,0 +1,27 @@
+{
+  "name": "FocusLabs",
+  "version": "0.1.0",
+  "description": "An event in Focusnetworks to share and create knowledge.",
+  "homepage": "http://focuslab.github.io",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/danilovaz/focus-labs.git"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": "1.1.x"
+  },
+  "scripts": {
+    "deploy": "docpad deploy-ghpages --env static",
+    "generate": "docpad generate --env static",
+    "watch": "docpad run"
+  },
+  "dependencies": {
+    "docpad": "6.30.x",
+    "docpad-plugin-eco": "2.0.2",
+    "docpad-plugin-marked": "2.1.1",
+    "docpad-plugin-partials": "2.6.1",
+    "docpad-plugin-less": "2.1.3",
+    "docpad-plugin-ghpages": "2.0.2"
+  }
+}
